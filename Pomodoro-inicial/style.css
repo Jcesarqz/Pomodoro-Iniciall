@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: url('resumen-antecedentes-coloridos_698452-731.avif') no-repeat center center/cover;
+    /* Imagen de fondo */
+}
+
+.pomodoro-container {
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.4);
+    /* Fondo translúcido para destacar el contenido */
+}
+
+#timer {
+    font-size: 6rem;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #FFFFFF;
+    /* Mantiene el temporizador blanco */
+}
+
+#status {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #FFD700;
+    /* Mensaje en dorado */
+}
+
+/* Estilos para los botones */
+button {
+    padding: 15px 30px;
+    /* Botones más grandes */
+    margin: 10px;
+    font-size: 1.5rem;
+    /* Texto más grande */
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    /* Sombra para destacar */
+}
+
+/* Hover y animación en los botones */
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+    /* Aumenta ligeramente el tamaño */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+button:active {
+    background-color: #004080;
+    transform: scale(1);
+    /* Vuelve al tamaño normal al hacer clic */
+}
+
+.timer-options button {
+    background-color: #28a745;
+    /* Verde para la opción de trabajo */
+}
+
+.timer-options button:hover {
+    background-color: #218838;
+}
+
+.controls button {
+    background-color: #ffc107;
+    /* Amarillo para los controles */
+}
+
+.controls button:hover {
+    background-color: #e0a800;
+}
